@@ -57,10 +57,11 @@ header {
 }
 
 .work-picture-img {
-    width: 420px;
-    object-fit: scale-down;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+    margin: 12px auto;
 }
 
 @keyframes float {
